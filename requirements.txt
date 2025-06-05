@@ -1,0 +1,3 @@
+winreg
+msvcrt
+time
