@@ -1,0 +1,9 @@
+os
+winreg
+time
+threading
+functools
+customtkinter
+winaccent
+Pillow
+pywin32
