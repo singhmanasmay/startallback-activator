@@ -3,14 +3,7 @@
 This script modifies Windows registry entries to reset the trial period for [StartAllBack](https://www.startallback.com/), a popular Windows customization tool.
 
 > [!NOTE]
-> This script is intended for educational purposes only. It is recommended to purchase a legitimate license for [StartAllBack](https://www.startallback.com/) to support the developers.
-
-## Requirements
-
-- Windows 10 1507 and above
-- [StartAllBack](https://www.startallback.com/) must be installed
-- Python 3.x (if running from source)
-- Python packages in [requirements.txt](requirements.txt) (if running from source)
+> This script is intended for educational purposes only. It is recommended to purchase a legitimate license to support the developers.
 
 ## Installation
 
@@ -26,7 +19,14 @@ pip install -r requirements.txt
 ```
 3. Run `StartAllBack Activator.pyw`
 
+> [!TIP]
+> A minimal dependency terminal based version is also available as [StartAllBack Activator(basic)](StartAllBack Activator(basic).py)
+## Requirements
 
+- Windows 10 1507 and above
+- StartAllBack must be installed
+- Python 3.x (if running from source)
+- Python packages in [requirements.txt](requirements.txt) (if running from source)
 
 ## Usage
 
@@ -41,7 +41,4 @@ pip install -r requirements.txt
    - Display appropriate messages
 4. Press any key to exit after the operation is complete
 
-
-## Note
-
-This script is for educational purposes only. Please support software developers by purchasing legitimate licenses for their products.
+## [License](LICENSE)
