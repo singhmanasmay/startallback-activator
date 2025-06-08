@@ -18,6 +18,10 @@ if init:
                      '██████╦╝██║░░██║███████╗███████╗██║░░██║███████╗╚█████╔╝██║░╚███║',
                      '╚═════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚═╝╚══════╝░╚════╝░╚═╝░░╚══╝','https://github.com/singhmanasmay','\n']))
     print(f'system32 exists= {system32exists}\n')
+if not system32exists:
+    print('Unsupported OS\nPlease ensure you are running this script on a Windows system.\nPress any key to continue...')
+    msvcrt.getch()  # Wait for user input before closing
+    quit()
 
 def subkeys(registry, key):
     """
@@ -61,11 +65,10 @@ for subkey in subkeys(winreg.HKEY_CURRENT_USER, r"Software\Microsoft\Windows\Cur
                 winreg.REG_QWORD,          # Value type (64-bit integer)
                 int(time.time())           # Current timestamp
             )
-            print('startallback trial days reset back to 100\npress any key to continue...')
+            print('Startallback trial days reset back to 100.\nPress any key to continue...')
             msvcrt.getch()  # Wait for user input
             quit()
 
 # If we reach here, StartAllBack registry entries were not found
-print('startallback is not installed\npress any key to continue...')
+print('Startallback is not installed.\nPress any key to continue...')
 msvcrt.getch()  # Wait for user input before closing
-
