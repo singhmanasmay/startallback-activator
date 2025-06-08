@@ -50,7 +50,7 @@ def gui():
     height = 500
     root.geometry(f'{width}x{height}+{int((root.winfo_screenwidth()/2)-(width/2))}+{int((root.winfo_screenheight()/2)-(height/2))}')
     root.configure(fg_color='black')
-    root.title('Minecraft Bedrock Activator')
+    root.title('StartAllBack Activator')
     root.iconbitmap(os.path.join(os.path.dirname(__file__),'icon.ico'))
     ctk.set_appearance_mode("dark")
 
