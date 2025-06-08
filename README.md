@@ -1,26 +1,36 @@
-# ![icon](icon.ico) StartAllBack Activator
+# StartAllBack Activator
 
-A Python script that resets the trial period for StartAllBack software on Windows.
+This script modifies Windows registry entries to reset the trial period for [StartAllBack](https://www.startallback.com/), a popular Windows customization tool.
 
-## Description
-
-This script modifies Windows registry entries to reset the trial period for StartAllBack, a Windows customization tool. It works by updating the activation timestamp in the Windows Registry under the CLSID keys.
+> [!NOTE]
+> This script is intended for educational purposes only. It is recommended to purchase a legitimate license for [StartAllBack](https://www.startallback.com/) to support the developers.
 
 ## Requirements
 
-- Windows operating system
-- Python 3.x
-- StartAllBack must be installed
-- Administrator privileges (for registry access)
+- Windows 10 1507 and above
+- [StartAllBack](https://www.startallback.com/) must be installed
+- Python 3.x (if running from source)
+- Python packages in [requirements.txt](requirements.txt) (if running from source)
 
-## Standard Library Dependencies
-- `winreg` - For Windows registry operations
-- `time` - For timestamp generation
-- `msvcrt` - For handling keyboard input
+## Installation
+
+1. Download the latest release from the releases page
+3. Run the downloaded file `StartAllBack Activator.exe`
+
+Or run from source:
+
+1. Clone this repository
+2. Install dependencies:
+```
+pip install -r requirements.txt
+```
+3. Run `StartAllBack Activator.pyw`
+
+
 
 ## Usage
 
-1. Make sure StartAllBack is installed on your system
+1. Make sure [StartAllBack](https://www.startallback.com/) is installed on your system
 2. Run the script with administrator privileges:
    ```
    python startallback-activator.py
@@ -31,13 +41,6 @@ This script modifies Windows registry entries to reset the trial period for Star
    - Display appropriate messages
 4. Press any key to exit after the operation is complete
 
-## How it Works
-
-The script:
-1. Searches through Windows Registry CLSID entries
-2. Locates StartAllBack-specific registry keys
-3. Updates the activation timestamp to reset the trial period
-4. Provides immediate feedback on the operation's success
 
 ## Note
 
