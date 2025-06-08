@@ -7,7 +7,7 @@ This script modifies Windows registry entries to reset the trial period for [Sta
 
 ## Installation
 
-1. Download the latest release from the releases page
+1. Download the latest release from the [releases page](https://github.com/singhmanasmay/startallback-activator/releases)
 3. Run the downloaded file `StartAllBack Activator.exe`
 
 Or run from source:
@@ -20,7 +20,8 @@ pip install -r requirements.txt
 3. Run `StartAllBack Activator.pyw`
 
 > [!TIP]
-> A minimal dependency terminal based version is also available as [StartAllBack Activator(basic)](StartAllBack Activator(basic).py)
+> A minimal dependency terminal based version is also available as [StartAllBack-Activator(basic).py](StartAllBack-Activator(basic).py) with requirements in [requirements(basic).txt](requirements(basic).txt).
+
 ## Requirements
 
 - Windows 10 1507 and above
@@ -30,15 +31,16 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Make sure [StartAllBack](https://www.startallback.com/) is installed on your system
-2. Run the script with administrator privileges:
-   ```
-   python startallback-activator.py
-   ```
-3. The script will:
-   - Search for StartAllBack registry entries
-   - Reset the trial period if found
-   - Display appropriate messages
-4. Press any key to exit after the operation is complete
+> [!IMPORTANT]
+> Make sure StartAllBack is installed on your system
+
+1. Run the script
+2. The script will modify the registry to reset the trial period for StartAllBack
+3. Profit!
+
+> [!WARNING]
+> All the files provided in this repository are considered an evaluation version and are provided for educational purposes only.\
+> By using this repository, you acknowledge and agree that the author(s) shall not be held responsible for any direct, indirect, incidental, special, exemplary, or consequential damages arising from the use or misuse of this code.
+
 
 ## [License](LICENSE)
