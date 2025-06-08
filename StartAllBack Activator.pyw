@@ -6,7 +6,6 @@ import functools
 import customtkinter as ctk  # Custom tkinter for modern UI
 import winaccent  # For Windows accent colors
 from PIL import ImageColor
-#pywin32
 
 def dark(color):
     """Convert a color to a darker shade by reducing RGB values by 40%.
