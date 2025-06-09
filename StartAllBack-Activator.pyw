@@ -201,7 +201,7 @@ def activate():
                             int(time.time())           # Current timestamp
                         )
                         output('StartAllBack trial days reset back to 100.\nPlease restart StartAllBack','#00FF00')
-                        os.popen(f'taskkill /f /pid {os.getpid()}')
+                        return
 
             # If we reach here, StartAllBack registry entries were not found
             output('StartAllBack is not installed.','#FF0000')
