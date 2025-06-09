@@ -8,7 +8,7 @@ This script modifies Windows registry entries to reset the trial period for [Sta
 ## Installation
 
 1. Download the latest release from the [releases page](https://github.com/singhmanasmay/startallback-activator/releases)
-3. Run the downloaded file `StartAllBack Activator.exe`
+3. Run the downloaded file `StartAllBack-Activator.exe`
 
 Or run from source:
 
