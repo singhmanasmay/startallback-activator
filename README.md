@@ -20,7 +20,7 @@ pip install -r requirements.txt
 3. Run `StartAllBack-Activator.pyw`
 
 > [!TIP]
-> A minimal dependency terminal based version is also available as [StartAllBack-Activator(basic).py](StartAllBack-Activator(basic).py) with requirements in [requirements(basic).txt](requirements(basic).txt).
+> A minimal dependency terminal based version is also available as [StartAllBack-Activator(cli).py](StartAllBack-Activator(basic).py) with requirements in [requirements(cli).txt](requirements(basic).txt).
 
 ## Requirements
 
